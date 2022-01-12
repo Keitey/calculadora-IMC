@@ -15,19 +15,19 @@ function imc () {
     let classificacao = '';
 
     if (valorIMC < 18.5) {
-        classificacao = 'Você está abaixo do peso'
+        classificacao = 'você está abaixo do peso'
     }
     else if (valorIMC < 25) {
-        classificacao = 'Seu peso está normal'
+        classificacao = 'seu peso está com o peso normal'
     }
     else if (valorIMC < 30) {
-        classificacao = 'Você está com sobrepeso grau I'
+        classificacao = 'você está com sobrepeso grau I'
     }
     else if (valorIMC < 35) {
-        classificacao = 'Você está com obesidade grau II'
+        classificacao = 'você está com obesidade grau II'
     }
     else if (valorIMC < 40) {
-        classificacao = 'Você está com obesidade grave grau III, por favor, se cuide!!'
+        classificacao = 'você está com obesidade grave grau III, por favor, se cuide!!'
     }
 
     resultado.textContent = `${nome} seu IMC ${valorIMC} e você está ${classificacao}`;
