@@ -97,9 +97,9 @@ button:hover{
     user-select: none;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
     .container{
-        width: 360px;
+        width: 320px;
         height: 511px
     }
 
